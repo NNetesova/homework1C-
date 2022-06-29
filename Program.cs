@@ -56,41 +56,62 @@
 //    Console.Write("Число является нечетным");
 //}
 
+
+
 //Задача №1 (HomeWork) "По заданному номеру дня недели вывести его название"
 
-Console.WriteLine("Введите номер дня недели от 1 до 7: ");
-int A = int.Parse(Console.ReadLine());
+//Console.WriteLine("Введите номер дня недели от 1 до 7: ");
+//int A = int.Parse(Console.ReadLine());
+//
+//if (A==1)
+//{
+//   Console.Write("Понедельник");
+//}
+//else if (A==2)
+//{
+//   Console.Write("Вторник");
+//}
+//else if (A==3)
+//{
+//   Console.Write("Среда");
+//}
+//else if (A==4)
+//{
+//   Console.Write("Четверг");
+//}
+//else if (A==5)
+//{
+//   Console.Write("Пятница");
+//}
+//else if (A==6)
+//{
+//   Console.Write("Суббота");
+//}
+//else if (A==7)
+//{
+//   Console.Write("Воскресенье");
+//}
 
-if (A==1)
-{
-   Console.Write("Понедельник");
-}
-else if (A==2)
-{
-   Console.Write("Вторник");
-}
-else if (A==3)
-{
-   Console.Write("Среда");
-}
-else if (A==4)
-{
-   Console.Write("Четверг");
-}
-else if (A==5)
-{
-   Console.Write("Пятница");
-}
-else if (A==6)
-{
-   Console.Write("Суббота");
-}
-else if (A==7)
-{
-   Console.Write("Воскресенье");
-}
+// Задача №2 (HomeWork) "Выяснить, кратно ли число заданному, если нет, вывести остаток"
 
-//Задача №2 (HomeWork) "Найти максимальное из трех чисел"
+//Задача №3 (HomeWork) "Найти максимальное из трех чисел"
 
+//Console.Write("ВВедите число A: ");
+//int numberA = int.Parse(Console.ReadLine());
+//Console.Write("ВВедите число B: ");
+//int numberB = int.Parse(Console.ReadLine());
+//Console.Write("ВВедите число C: ");
+//int numberC = int.Parse(Console.ReadLine());
 
-//Задача №3 (HomeWork) "Выяснить, кратно ли число заданному, если нет, вывести остаток"
+//max = numberA;
+
+//if (numberB>A)
+//{
+//    Console.Write("B = max");
+//}
+//
+//if (numberC>max)
+//{
+//    Console.Write("C = max");
+//}
+//max = Math.Max(numberA, Math.Max(numberB, numberC));
