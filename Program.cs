@@ -94,6 +94,22 @@
 
 // Задача №2 (HomeWork) "Выяснить, кратно ли число заданному, если нет, вывести остаток"
 
+//Console.Write("ВВедите число A: ");
+//int numberA = int.Parse(Console.ReadLine());;
+//Console.Write("ВВедите число B: ");
+//int numberB = int.Parse(Console.ReadLine());
+
+//int result = numberA%numberB;
+
+//if (numberA%numberB==0)
+//{
+//    Console.Write("Число В является кратным числу А");
+//}
+//else if (numberA%numberB!=0)
+//{
+//    Console.Write($"Число B не является кратным данному числу A, остаток равен {result}");
+//}
+
 //Задача №3 (HomeWork) "Найти максимальное из трех чисел"
 
 //Console.Write("ВВедите число A: ");
