@@ -94,40 +94,45 @@
 
 // Задача №2 (HomeWork) "Выяснить, кратно ли число заданному, если нет, вывести остаток"
 
-Console.Write("ВВедите число A: ");
-int numberA = int.Parse(Console.ReadLine());;
-Console.Write("ВВедите число B: ");
-int numberB = int.Parse(Console.ReadLine());
+//Console.Write("ВВедите число A: ");
+//int numberA = int.Parse(Console.ReadLine());;
+//Console.Write("ВВедите число B: ");
+//int numberB = int.Parse(Console.ReadLine());
 
-int result = numberA%numberB;
+//int result = numberA%numberB;
 
-if (result==0)
-{
-    Console.Write("Число В является кратным числу А");
-}
-else
-{
-    Console.Write($"Число B не является кратным данному числу A, остаток равен {result}");
-}
+//if (result==0)
+//{
+//    Console.Write("Число В является кратным числу А");
+//}
+//else
+//{
+//    Console.Write($"Число B не является кратным данному числу A, остаток равен {result}");
+//}
 
 //Задача №3 (HomeWork) "Найти максимальное из трех чисел"
 
-//Console.Write("ВВедите число A: ");
-//int numberA = int.Parse(Console.ReadLine());
-//Console.Write("ВВедите число B: ");
-//int numberB = int.Parse(Console.ReadLine());
-//Console.Write("ВВедите число C: ");
-//int numberC = int.Parse(Console.ReadLine());
+Console.Write("ВВедите число A: ");
+int numberA = int.Parse(Console.ReadLine());
+Console.Write("ВВедите число B: ");
+int numberB = int.Parse(Console.ReadLine());
+Console.Write("ВВедите число C: ");
+int numberC = int.Parse(Console.ReadLine());
 
-//max = numberA;
+int max = numberA;
 
-//if (numberB>A)
-//{
-//    Console.Write("B = max");
-//}
-//
-//if (numberC>max)
-//{
-//    Console.Write("C = max");
-//}
-//max = Math.Max(numberA, Math.Max(numberB, numberC));
+if (numberA > max) 
+{
+    max = numberA;
+}
+else if (numberB > max) 
+{
+    max = numberB;
+}
+else if (numberC > max) 
+{
+    max = numberC;
+}
+
+Console.Write("max=");
+Console.WriteLine(max);
